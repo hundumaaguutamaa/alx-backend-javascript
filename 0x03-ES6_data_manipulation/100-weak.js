@@ -5,7 +5,7 @@ export const weakMap = new WeakMap();
 export function queryAPI(endpoint) {
     // Check if endpoint exists in weakMap
     if (!weakMap.has(endpoint)) {
-        // if not initialize count to 0
+        // if not, initialize count to 0
         weakMap.set(endpoint, 0);
     }
 
