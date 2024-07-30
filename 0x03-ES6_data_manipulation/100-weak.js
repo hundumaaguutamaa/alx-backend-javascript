@@ -1,6 +1,7 @@
 // Export a const instance of WeakMap and name it weakMap.
 export const weakMap = new WeakMap();
 
+const MAX_ENDPOINT_CALLS = 5;
 // Export new function queryAPI
 export function queryAPI(endpoint) {
     // Check if endpoint exists in weakMap
