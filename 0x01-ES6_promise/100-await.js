@@ -23,4 +23,3 @@ async function asyncUploadUser() {
 
 // Export the function
 module.exports = asyncUploadUser;
-
